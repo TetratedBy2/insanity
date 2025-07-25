@@ -1,9 +1,13 @@
 var game = {
-  dollars: new ExpantaNum(0)
+  dollars: new ExpantaNum(0),
+  upgrades: {
+    upg1: new ExpantaNum(0),
+    upg1_cost: new ExpantaNum(10)
+  }
 }
 
 function prettify() {
-  game.dollars.toExponential(2);
+  game.dollars = game.dollars.toExponential(2);
 }
 
 function updateText() {
