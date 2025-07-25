@@ -1,8 +1,8 @@
 var game = {
   dollars: new ExpantaNum(0),
-  dollarUpgrades[0]: {
+  dollarUpgrades: [
     {upg: new ExpantaNum(0), upg_cost: new ExpantaNum(10)}
-  }
+  ]
 }
 
 function prettify() {
