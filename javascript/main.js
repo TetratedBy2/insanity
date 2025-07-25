@@ -6,7 +6,7 @@ var game = {
 }
 
 function prettify() {
-  game.dollars = game.dollars.toExponential(2);
+  if (game.dollars.gte(1000000)) game.dollars = game.dollars.toPrecision(2);
 }
 
 function updateText() {
