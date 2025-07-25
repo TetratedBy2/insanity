@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.color_red {
+  color: red;
+}
+
+.color_gold {
+  color: #FFD700;
+}
+
+.btn {
+  border: 2px solid white;
+}
