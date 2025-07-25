@@ -1,6 +1,6 @@
 var game = {
   dollars: new ExpantaNum(0),
-  dollarUpgrades[1]: {
+  dollarUpgrades[0]: {
     {upg: new ExpantaNum(0), upg_cost: new ExpantaNum(10)}
   }
 }
